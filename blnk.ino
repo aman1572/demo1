@@ -8,7 +8,7 @@ void loop() {
 
   if ((digitalRead(9) == HIGH && i == 0) )
   {
-    digitalWrite(4, HIGH);
+    digitalWrite(4, 1);
     i = 1;
   }
   else if (digitalRead(9) == LOW && i == 1)
